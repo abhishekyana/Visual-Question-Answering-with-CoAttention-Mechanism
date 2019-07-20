@@ -37,4 +37,4 @@
        3. `python CoAttention_main.py`
     
 ### Links:
-1. To read about the inner workings of the model visit [this](http://blogs.abhishekyana.ml/VQA2019)
+1. To read about the inner workings of the model visit [this](http://blog.abhishekyana.ml/VQA2019)
