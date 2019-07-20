@@ -36,4 +36,5 @@
        2. Run the `CoAttention_preprocess.py` to generate the pickle objects required to run the model experiment runner.
        3. `python CoAttention_main.py`
     
-## TODO Write all the details of the project
+### Links:
+1. To read about the inner workings of the model visit [this](http://blogs.abhishekyana.ml/VQA2019)
