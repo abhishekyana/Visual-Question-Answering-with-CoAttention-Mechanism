@@ -4,7 +4,7 @@
 - **Models Implemented**:
   1. Simple Baseline for VQA. [Paper](https://arxiv.org/abs/1512.02167)
   1. Heirarchial Question-Image Co-Attention Mechanism for VQA. [Paper](https://arxiv.org/abs/1606.00061)
-  
+---
 - **Content**:
   - root
     - Data`(MSCOCO should be placed into this folder, present it has placeholders)`
@@ -25,7 +25,7 @@
     - CoAttention_main.py `(Main training code for the CoAttention Net)`
     - CoAttention_runner.py `(Runner, Has all the optimizers+training+validation functions)`
     - CoattBestRun.txt`(Run Log for CoAttention Net)`
-    
+---
     ### **To Run this code on your Machine**
     #### Initial setup
        1. Download the [Visual VQA dataset](https://visualqa.org/) and copy that into the Data folder.
