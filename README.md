@@ -8,6 +8,8 @@
 - **Content**:
   - root
     - Data`(MSCOCO should be placed into this folder, present it has placeholders)`
+    - savedmodels`(trained pytorch models will be saved here)`
+    - suportfiles`(Support files for the code to run are saved here)`
     - RUNS`(Tensorboard will be saved here)`
     - GoogleNet.py`(A PyTorch implementation of GoogLeNet)`
     - vqa.py`(A file to handle the paths and links for the VQA dataset)`
