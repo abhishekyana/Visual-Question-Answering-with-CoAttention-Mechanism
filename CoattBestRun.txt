@@ -1,0 +1,895 @@
+(VQA) abhishek@abhishek-MS-7971:/PATH/$ python CoAttention_main.py
+loading VQA annotations and questions into memory...
+0:00:03.830253
+creating index...
+index created!
+loading VQA annotations and questions into memory...
+0:00:02.125712
+creating index...
+index created!
+CUDA Fied
+Epoch: 0, Batch 0/1334 has loss 6.9693450927734375
+Validating...
+Epoch: 0 has val accuracy 0.2225723733045415
+Epoch: 0, Batch 10/1334 has loss 4.585088729858398
+Epoch: 0, Batch 20/1334 has loss 4.0576395988464355
+Epoch: 0, Batch 30/1334 has loss 4.081979274749756
+Epoch: 0, Batch 40/1334 has loss 4.034585475921631
+Epoch: 0, Batch 50/1334 has loss 4.223721504211426
+Epoch: 0, Batch 60/1334 has loss 3.8495748043060303
+Epoch: 0, Batch 70/1334 has loss 3.837311267852783
+Epoch: 0, Batch 80/1334 has loss 3.8693149089813232
+Epoch: 0, Batch 90/1334 has loss 3.765178918838501
+Epoch: 0, Batch 100/1334 has loss 3.7792158126831055
+Epoch: 0, Batch 110/1334 has loss 3.6739346981048584
+Epoch: 0, Batch 120/1334 has loss 3.5297248363494873
+Epoch: 0, Batch 130/1334 has loss 3.688201665878296
+Epoch: 0, Batch 140/1334 has loss 3.525378942489624
+Epoch: 0, Batch 150/1334 has loss 3.7989683151245117
+Epoch: 0, Batch 160/1334 has loss 3.6121270656585693
+Epoch: 0, Batch 170/1334 has loss 3.7281346321105957
+Epoch: 0, Batch 180/1334 has loss 3.499114751815796
+Epoch: 0, Batch 190/1334 has loss 3.7662878036499023
+Epoch: 0, Batch 200/1334 has loss 3.114668846130371
+Epoch: 0, Batch 210/1334 has loss 3.4443130493164062
+Epoch: 0, Batch 220/1334 has loss 3.566098213195801
+Epoch: 0, Batch 230/1334 has loss 3.489945411682129
+Epoch: 0, Batch 240/1334 has loss 3.349087953567505
+Epoch: 0, Batch 250/1334 has loss 3.373217821121216
+Validating...
+Epoch: 0 has val accuracy 0.29137553141237604
+Epoch: 0, Batch 260/1334 has loss 3.387570858001709
+Epoch: 0, Batch 270/1334 has loss 3.5357768535614014
+Epoch: 0, Batch 280/1334 has loss 3.401937961578369
+Epoch: 0, Batch 290/1334 has loss 3.200969696044922
+Epoch: 0, Batch 300/1334 has loss 3.4329445362091064
+Epoch: 0, Batch 310/1334 has loss 3.2937803268432617
+Epoch: 0, Batch 320/1334 has loss 3.443502426147461
+Epoch: 0, Batch 330/1334 has loss 3.1062066555023193
+Epoch: 0, Batch 340/1334 has loss 3.219486951828003
+Epoch: 0, Batch 350/1334 has loss 3.3980355262756348
+Epoch: 0, Batch 360/1334 has loss 3.210841178894043
+Epoch: 0, Batch 370/1334 has loss 3.699103832244873
+Epoch: 0, Batch 380/1334 has loss 3.186476707458496
+Epoch: 0, Batch 390/1334 has loss 3.778282642364502
+Epoch: 0, Batch 400/1334 has loss 3.3849236965179443
+Epoch: 0, Batch 410/1334 has loss 2.847654342651367
+Epoch: 0, Batch 420/1334 has loss 2.9554214477539062
+Epoch: 0, Batch 430/1334 has loss 3.2350215911865234
+Epoch: 0, Batch 440/1334 has loss 3.2131710052490234
+Epoch: 0, Batch 450/1334 has loss 3.3572535514831543
+Epoch: 0, Batch 460/1334 has loss 3.3226852416992188
+Epoch: 0, Batch 470/1334 has loss 3.2225353717803955
+Epoch: 0, Batch 480/1334 has loss 3.4134600162506104
+Epoch: 0, Batch 490/1334 has loss 3.4345033168792725
+Epoch: 0, Batch 500/1334 has loss 3.180734872817993
+Validating...
+Epoch: 0 has val accuracy 0.31006046291922534
+Epoch: 0, Batch 510/1334 has loss 3.067209482192993
+Epoch: 0, Batch 520/1334 has loss 2.79449200630188
+Epoch: 0, Batch 530/1334 has loss 3.418836832046509
+Epoch: 0, Batch 540/1334 has loss 3.1454687118530273
+Epoch: 0, Batch 550/1334 has loss 3.3063337802886963
+Epoch: 0, Batch 560/1334 has loss 3.414175510406494
+Epoch: 0, Batch 570/1334 has loss 3.1613245010375977
+Epoch: 0, Batch 580/1334 has loss 3.124718427658081
+Epoch: 0, Batch 590/1334 has loss 3.034191846847534
+Epoch: 0, Batch 600/1334 has loss 3.217907667160034
+Epoch: 0, Batch 610/1334 has loss 3.2895689010620117
+Epoch: 0, Batch 620/1334 has loss 3.5208165645599365
+Epoch: 0, Batch 630/1334 has loss 3.084491729736328
+Epoch: 0, Batch 640/1334 has loss 3.2613701820373535
+Epoch: 0, Batch 650/1334 has loss 3.2257657051086426
+Epoch: 0, Batch 660/1334 has loss 2.8928897380828857
+Epoch: 0, Batch 670/1334 has loss 3.1105527877807617
+Epoch: 0, Batch 680/1334 has loss 3.341019630432129
+Epoch: 0, Batch 690/1334 has loss 3.0118765830993652
+Epoch: 0, Batch 700/1334 has loss 2.795149087905884
+Epoch: 0, Batch 710/1334 has loss 3.3763391971588135
+Epoch: 0, Batch 720/1334 has loss 3.332119941711426
+Epoch: 0, Batch 730/1334 has loss 3.2919185161590576
+Epoch: 0, Batch 740/1334 has loss 2.899512529373169
+Epoch: 0, Batch 750/1334 has loss 3.2352089881896973
+Validating...
+Epoch: 0 has val accuracy 0.3116030771307107
+Epoch: 0, Batch 760/1334 has loss 3.3437061309814453
+Epoch: 0, Batch 770/1334 has loss 2.994856357574463
+Epoch: 0, Batch 780/1334 has loss 3.2653725147247314
+Epoch: 0, Batch 790/1334 has loss 3.1792209148406982
+Epoch: 0, Batch 800/1334 has loss 3.2568795680999756
+Epoch: 0, Batch 810/1334 has loss 3.1721432209014893
+Epoch: 0, Batch 820/1334 has loss 3.253798246383667
+Epoch: 0, Batch 830/1334 has loss 3.092763900756836
+Epoch: 0, Batch 840/1334 has loss 3.164224863052368
+Epoch: 0, Batch 850/1334 has loss 3.152651786804199
+Epoch: 0, Batch 860/1334 has loss 3.477398157119751
+Epoch: 0, Batch 870/1334 has loss 2.7137868404388428
+Epoch: 0, Batch 880/1334 has loss 3.5760245323181152
+Epoch: 0, Batch 890/1334 has loss 3.391293525695801
+Epoch: 0, Batch 900/1334 has loss 3.1221940517425537
+Epoch: 0, Batch 910/1334 has loss 3.3439111709594727
+Epoch: 0, Batch 920/1334 has loss 3.227219581604004
+Epoch: 0, Batch 930/1334 has loss 3.4947774410247803
+Epoch: 0, Batch 940/1334 has loss 3.0940773487091064
+Epoch: 0, Batch 950/1334 has loss 3.174733877182007
+Epoch: 0, Batch 960/1334 has loss 3.232880115509033
+Epoch: 0, Batch 970/1334 has loss 3.185215473175049
+Epoch: 0, Batch 980/1334 has loss 3.122286319732666
+Epoch: 0, Batch 990/1334 has loss 2.9404220581054688
+Epoch: 0, Batch 1000/1334 has loss 3.0666751861572266
+Validating...
+Epoch: 0 has val accuracy 0.3250531074971321
+Epoch: 0, Batch 1010/1334 has loss 2.9964871406555176
+Epoch: 0, Batch 1020/1334 has loss 3.166166305541992
+Epoch: 0, Batch 1030/1334 has loss 3.106234073638916
+Epoch: 0, Batch 1040/1334 has loss 3.1498594284057617
+Epoch: 0, Batch 1050/1334 has loss 3.0945076942443848
+Epoch: 0, Batch 1060/1334 has loss 3.3546133041381836
+Epoch: 0, Batch 1070/1334 has loss 3.030818223953247
+Epoch: 0, Batch 1080/1334 has loss 3.118490219116211
+Epoch: 0, Batch 1090/1334 has loss 2.674082040786743
+Epoch: 0, Batch 1100/1334 has loss 3.128147840499878
+Epoch: 0, Batch 1110/1334 has loss 3.119758367538452
+Epoch: 0, Batch 1120/1334 has loss 2.8711092472076416
+Epoch: 0, Batch 1130/1334 has loss 2.9647159576416016
+Epoch: 0, Batch 1140/1334 has loss 2.938026189804077
+Epoch: 0, Batch 1150/1334 has loss 2.820518732070923
+Epoch: 0, Batch 1160/1334 has loss 2.9400134086608887
+Epoch: 0, Batch 1170/1334 has loss 3.285979747772217
+Epoch: 0, Batch 1180/1334 has loss 2.848863363265991
+Epoch: 0, Batch 1190/1334 has loss 2.898529291152954
+Epoch: 0, Batch 1200/1334 has loss 2.8945765495300293
+Epoch: 0, Batch 1210/1334 has loss 2.8366987705230713
+Epoch: 0, Batch 1220/1334 has loss 2.953925848007202
+Epoch: 0, Batch 1230/1334 has loss 2.8382208347320557
+Epoch: 0, Batch 1240/1334 has loss 3.0696847438812256
+Epoch: 0, Batch 1250/1334 has loss 2.994608163833618
+Validating...
+Epoch: 0 has val accuracy 0.3390427154328902
+Epoch: 0, Batch 1260/1334 has loss 2.974834680557251
+Epoch: 0, Batch 1270/1334 has loss 2.7913730144500732
+Epoch: 0, Batch 1280/1334 has loss 3.16347074508667
+Epoch: 0, Batch 1290/1334 has loss 2.739281415939331
+Epoch: 0, Batch 1300/1334 has loss 2.803826332092285
+Epoch: 0, Batch 1310/1334 has loss 2.4951562881469727
+Epoch: 0, Batch 1320/1334 has loss 3.056824207305908
+Epoch: 0, Batch 1330/1334 has loss 3.0978870391845703
+Validating...
+complete accuracy
+Epoch: 0 has val accuracy 0.34946204197314273
+Epoch: 1, Batch 6/1334 has loss 2.7275140285491943
+Epoch: 1, Batch 16/1334 has loss 2.9870946407318115
+Epoch: 1, Batch 26/1334 has loss 2.5543034076690674
+Epoch: 1, Batch 36/1334 has loss 2.4611294269561768
+Epoch: 1, Batch 46/1334 has loss 2.513312578201294
+Epoch: 1, Batch 56/1334 has loss 2.9344642162323
+Epoch: 1, Batch 66/1334 has loss 2.7283432483673096
+Epoch: 1, Batch 76/1334 has loss 2.631516456604004
+Epoch: 1, Batch 86/1334 has loss 2.828049421310425
+Epoch: 1, Batch 96/1334 has loss 2.568289041519165
+Epoch: 1, Batch 106/1334 has loss 2.979201078414917
+Epoch: 1, Batch 116/1334 has loss 2.851651668548584
+Epoch: 1, Batch 126/1334 has loss 2.806378126144409
+Epoch: 1, Batch 136/1334 has loss 2.717031240463257
+Epoch: 1, Batch 146/1334 has loss 2.84244966506958
+Epoch: 1, Batch 156/1334 has loss 2.670603036880493
+Epoch: 1, Batch 166/1334 has loss 2.7376868724823
+Validating...
+Epoch: 1 has val accuracy 0.3559026924893719
+Epoch: 1, Batch 176/1334 has loss 2.5773987770080566
+Epoch: 1, Batch 186/1334 has loss 2.56289005279541
+Epoch: 1, Batch 196/1334 has loss 2.7611184120178223
+Epoch: 1, Batch 206/1334 has loss 2.453732967376709
+Epoch: 1, Batch 216/1334 has loss 2.7176012992858887
+Epoch: 1, Batch 226/1334 has loss 2.500140905380249
+Epoch: 1, Batch 236/1334 has loss 2.499232530593872
+Epoch: 1, Batch 246/1334 has loss 2.5891153812408447
+Epoch: 1, Batch 256/1334 has loss 2.661314010620117
+Epoch: 1, Batch 266/1334 has loss 2.708542823791504
+Epoch: 1, Batch 276/1334 has loss 2.946821689605713
+Epoch: 1, Batch 286/1334 has loss 2.4477415084838867
+Epoch: 1, Batch 296/1334 has loss 2.7798378467559814
+Epoch: 1, Batch 306/1334 has loss 2.8381295204162598
+Epoch: 1, Batch 316/1334 has loss 2.63552188873291
+Epoch: 1, Batch 326/1334 has loss 2.598357677459717
+Epoch: 1, Batch 336/1334 has loss 2.6704039573669434
+Epoch: 1, Batch 346/1334 has loss 2.3441765308380127
+Epoch: 1, Batch 356/1334 has loss 2.850883960723877
+Epoch: 1, Batch 366/1334 has loss 2.6452953815460205
+Epoch: 1, Batch 376/1334 has loss 2.550194501876831
+Epoch: 1, Batch 386/1334 has loss 2.4945242404937744
+Epoch: 1, Batch 396/1334 has loss 2.56192684173584
+Epoch: 1, Batch 406/1334 has loss 2.6571149826049805
+Epoch: 1, Batch 416/1334 has loss 2.7087783813476562
+Validating...
+Epoch: 1 has val accuracy 0.3766594237128012
+Epoch: 1, Batch 426/1334 has loss 2.33622145652771
+Epoch: 1, Batch 436/1334 has loss 2.3407325744628906
+Epoch: 1, Batch 446/1334 has loss 2.694430351257324
+Epoch: 1, Batch 456/1334 has loss 2.6577353477478027
+Epoch: 1, Batch 466/1334 has loss 2.387932062149048
+Epoch: 1, Batch 476/1334 has loss 2.4643383026123047
+Epoch: 1, Batch 486/1334 has loss 2.624305009841919
+Epoch: 1, Batch 496/1334 has loss 2.3895797729492188
+Epoch: 1, Batch 506/1334 has loss 2.628047466278076
+Epoch: 1, Batch 516/1334 has loss 2.5045204162597656
+Epoch: 1, Batch 526/1334 has loss 2.453197956085205
+Epoch: 1, Batch 536/1334 has loss 2.5538556575775146
+Epoch: 1, Batch 546/1334 has loss 2.444728374481201
+Epoch: 1, Batch 556/1334 has loss 2.8711800575256348
+Epoch: 1, Batch 566/1334 has loss 2.5246317386627197
+Epoch: 1, Batch 576/1334 has loss 2.719045877456665
+Epoch: 1, Batch 586/1334 has loss 2.7053589820861816
+Epoch: 1, Batch 596/1334 has loss 2.4979805946350098
+Epoch: 1, Batch 606/1334 has loss 2.3920464515686035
+Epoch: 1, Batch 616/1334 has loss 2.810265302658081
+Epoch: 1, Batch 626/1334 has loss 2.621155261993408
+Epoch: 1, Batch 636/1334 has loss 2.5709125995635986
+Epoch: 1, Batch 646/1334 has loss 2.5628130435943604
+Epoch: 1, Batch 656/1334 has loss 2.5712645053863525
+Epoch: 1, Batch 666/1334 has loss 2.6209282875061035
+Validating...
+Epoch: 1 has val accuracy 0.38238949996625954
+Epoch: 1, Batch 676/1334 has loss 2.5065805912017822
+Epoch: 1, Batch 686/1334 has loss 2.4518206119537354
+Epoch: 1, Batch 696/1334 has loss 2.824436902999878
+Epoch: 1, Batch 706/1334 has loss 2.5242087841033936
+Epoch: 1, Batch 716/1334 has loss 2.360527992248535
+Epoch: 1, Batch 726/1334 has loss 2.5316555500030518
+Epoch: 1, Batch 736/1334 has loss 2.3603832721710205
+Epoch: 1, Batch 746/1334 has loss 2.496080160140991
+Epoch: 1, Batch 756/1334 has loss 2.791516065597534
+Epoch: 1, Batch 766/1334 has loss 2.3528382778167725
+Epoch: 1, Batch 776/1334 has loss 2.522395372390747
+Epoch: 1, Batch 786/1334 has loss 2.3475019931793213
+Epoch: 1, Batch 796/1334 has loss 2.5130014419555664
+Epoch: 1, Batch 806/1334 has loss 2.5211615562438965
+Epoch: 1, Batch 816/1334 has loss 2.3207457065582275
+Epoch: 1, Batch 826/1334 has loss 2.350270986557007
+Epoch: 1, Batch 836/1334 has loss 2.5667755603790283
+Epoch: 1, Batch 846/1334 has loss 2.7270255088806152
+Epoch: 1, Batch 856/1334 has loss 2.314579486846924
+Epoch: 1, Batch 866/1334 has loss 2.4799342155456543
+Epoch: 1, Batch 876/1334 has loss 2.5300636291503906
+Epoch: 1, Batch 886/1334 has loss 2.2429707050323486
+Epoch: 1, Batch 896/1334 has loss 2.141140937805176
+Epoch: 1, Batch 906/1334 has loss 2.6944570541381836
+Epoch: 1, Batch 916/1334 has loss 2.7014737129211426
+Validating...
+Epoch: 1 has val accuracy 0.3851840205142051
+Epoch: 1, Batch 926/1334 has loss 2.5953922271728516
+Epoch: 1, Batch 936/1334 has loss 2.4332330226898193
+Epoch: 1, Batch 946/1334 has loss 2.491727828979492
+Epoch: 1, Batch 956/1334 has loss 2.494584321975708
+Epoch: 1, Batch 966/1334 has loss 2.577104091644287
+Epoch: 1, Batch 976/1334 has loss 2.6719682216644287
+Epoch: 1, Batch 986/1334 has loss 2.440713405609131
+Epoch: 1, Batch 996/1334 has loss 2.5447521209716797
+Epoch: 1, Batch 1006/1334 has loss 2.1764376163482666
+Epoch: 1, Batch 1016/1334 has loss 2.7603135108947754
+Epoch: 1, Batch 1026/1334 has loss 2.4322564601898193
+Epoch: 1, Batch 1036/1334 has loss 2.3793528079986572
+Epoch: 1, Batch 1046/1334 has loss 2.5264408588409424
+Epoch: 1, Batch 1056/1334 has loss 2.569611072540283
+Epoch: 1, Batch 1066/1334 has loss 2.2014575004577637
+Epoch: 1, Batch 1076/1334 has loss 2.7053005695343018
+Epoch: 1, Batch 1086/1334 has loss 2.8254449367523193
+Epoch: 1, Batch 1096/1334 has loss 2.442084550857544
+Epoch: 1, Batch 1106/1334 has loss 2.194047212600708
+Epoch: 1, Batch 1116/1334 has loss 2.3174889087677
+Epoch: 1, Batch 1126/1334 has loss 2.5133533477783203
+Epoch: 1, Batch 1136/1334 has loss 2.3987226486206055
+Epoch: 1, Batch 1146/1334 has loss 2.400669813156128
+Epoch: 1, Batch 1156/1334 has loss 2.4340829849243164
+Epoch: 1, Batch 1166/1334 has loss 2.468461275100708
+Validating...
+Epoch: 1 has val accuracy 0.3923073081854375
+Epoch: 1, Batch 1176/1334 has loss 2.551046848297119
+Epoch: 1, Batch 1186/1334 has loss 2.2015483379364014
+Epoch: 1, Batch 1196/1334 has loss 2.482379198074341
+Epoch: 1, Batch 1206/1334 has loss 2.5593645572662354
+Epoch: 1, Batch 1216/1334 has loss 2.246490478515625
+Epoch: 1, Batch 1226/1334 has loss 2.4646642208099365
+Epoch: 1, Batch 1236/1334 has loss 2.2635157108306885
+Epoch: 1, Batch 1246/1334 has loss 2.5924630165100098
+Epoch: 1, Batch 1256/1334 has loss 2.322175979614258
+Epoch: 1, Batch 1266/1334 has loss 2.3551955223083496
+Epoch: 1, Batch 1276/1334 has loss 2.4464099407196045
+Epoch: 1, Batch 1286/1334 has loss 2.326084613800049
+Epoch: 1, Batch 1296/1334 has loss 2.448838233947754
+Epoch: 1, Batch 1306/1334 has loss 2.4412055015563965
+Epoch: 1, Batch 1316/1334 has loss 2.5293753147125244
+Epoch: 1, Batch 1326/1334 has loss 2.357381820678711
+Validating...
+complete accuracy
+Epoch: 1 has val accuracy 0.3939721978541063
+Epoch: 2, Batch 2/1334 has loss 2.377244472503662
+Epoch: 2, Batch 12/1334 has loss 2.1476852893829346
+Epoch: 2, Batch 22/1334 has loss 2.111527442932129
+Epoch: 2, Batch 32/1334 has loss 2.1911299228668213
+Epoch: 2, Batch 42/1334 has loss 2.4024088382720947
+Epoch: 2, Batch 52/1334 has loss 2.3894877433776855
+Epoch: 2, Batch 62/1334 has loss 2.6121809482574463
+Epoch: 2, Batch 72/1334 has loss 2.313939094543457
+Epoch: 2, Batch 82/1334 has loss 2.155503273010254
+Validating...
+Epoch: 2 has val accuracy 0.4012304473986101
+Epoch: 2, Batch 92/1334 has loss 2.1882386207580566
+Epoch: 2, Batch 102/1334 has loss 2.4578135013580322
+Epoch: 2, Batch 112/1334 has loss 2.5628185272216797
+Epoch: 2, Batch 122/1334 has loss 2.3826563358306885
+Epoch: 2, Batch 132/1334 has loss 2.24346923828125
+Epoch: 2, Batch 142/1334 has loss 2.246403217315674
+Epoch: 2, Batch 152/1334 has loss 2.434368371963501
+Epoch: 2, Batch 162/1334 has loss 2.3818790912628174
+Epoch: 2, Batch 172/1334 has loss 2.4396650791168213
+Epoch: 2, Batch 182/1334 has loss 2.4680960178375244
+Epoch: 2, Batch 192/1334 has loss 2.1975808143615723
+Epoch: 2, Batch 202/1334 has loss 2.19854998588562
+Epoch: 2, Batch 212/1334 has loss 2.218923330307007
+Epoch: 2, Batch 222/1334 has loss 2.221498727798462
+Epoch: 2, Batch 232/1334 has loss 2.2971479892730713
+Epoch: 2, Batch 242/1334 has loss 2.1778321266174316
+Epoch: 2, Batch 252/1334 has loss 2.3321516513824463
+Epoch: 2, Batch 262/1334 has loss 2.2993366718292236
+Epoch: 2, Batch 272/1334 has loss 2.6074631214141846
+Epoch: 2, Batch 282/1334 has loss 2.511843204498291
+Epoch: 2, Batch 292/1334 has loss 2.358222723007202
+Epoch: 2, Batch 302/1334 has loss 2.181725263595581
+Epoch: 2, Batch 312/1334 has loss 2.1892189979553223
+Epoch: 2, Batch 322/1334 has loss 2.592757225036621
+Epoch: 2, Batch 332/1334 has loss 2.5733418464660645
+Validating...
+Epoch: 2 has val accuracy 0.4043600782778867
+Epoch: 2, Batch 342/1334 has loss 2.0662364959716797
+Epoch: 2, Batch 352/1334 has loss 2.256134510040283
+Epoch: 2, Batch 362/1334 has loss 2.1472301483154297
+Epoch: 2, Batch 372/1334 has loss 2.2853853702545166
+Epoch: 2, Batch 382/1334 has loss 2.3515002727508545
+Epoch: 2, Batch 392/1334 has loss 2.0324490070343018
+Epoch: 2, Batch 402/1334 has loss 2.2216405868530273
+Epoch: 2, Batch 412/1334 has loss 2.3923637866973877
+Epoch: 2, Batch 422/1334 has loss 2.28257155418396
+Epoch: 2, Batch 432/1334 has loss 2.2462706565856934
+Epoch: 2, Batch 442/1334 has loss 2.1440513134002686
+Epoch: 2, Batch 452/1334 has loss 2.3974859714508057
+Epoch: 2, Batch 462/1334 has loss 2.2032265663146973
+Epoch: 2, Batch 472/1334 has loss 2.0836710929870605
+Epoch: 2, Batch 482/1334 has loss 2.2884328365325928
+Epoch: 2, Batch 492/1334 has loss 2.244236469268799
+Epoch: 2, Batch 502/1334 has loss 2.3151156902313232
+Epoch: 2, Batch 512/1334 has loss 2.3876166343688965
+Epoch: 2, Batch 522/1334 has loss 2.497264862060547
+Epoch: 2, Batch 532/1334 has loss 2.322288751602173
+Epoch: 2, Batch 542/1334 has loss 2.3958988189697266
+Epoch: 2, Batch 552/1334 has loss 2.0759212970733643
+Epoch: 2, Batch 562/1334 has loss 2.1685965061187744
+Epoch: 2, Batch 572/1334 has loss 2.291968584060669
+Epoch: 2, Batch 582/1334 has loss 1.9329997301101685
+Validating...
+Epoch: 2 has val accuracy 0.4087583507659087
+Epoch: 2, Batch 592/1334 has loss 2.1831486225128174
+Epoch: 2, Batch 602/1334 has loss 2.3941843509674072
+Epoch: 2, Batch 612/1334 has loss 2.278977394104004
+Epoch: 2, Batch 622/1334 has loss 2.3521015644073486
+Epoch: 2, Batch 632/1334 has loss 2.2175331115722656
+Epoch: 2, Batch 642/1334 has loss 2.351665735244751
+Epoch: 2, Batch 652/1334 has loss 2.1976373195648193
+Epoch: 2, Batch 662/1334 has loss 2.4407577514648438
+Epoch: 2, Batch 672/1334 has loss 2.1494548320770264
+Epoch: 2, Batch 682/1334 has loss 2.378652811050415
+Epoch: 2, Batch 692/1334 has loss 2.1960318088531494
+Epoch: 2, Batch 702/1334 has loss 2.263725757598877
+Epoch: 2, Batch 712/1334 has loss 2.2683305740356445
+Epoch: 2, Batch 722/1334 has loss 2.2493386268615723
+Epoch: 2, Batch 732/1334 has loss 2.095764636993408
+Epoch: 2, Batch 742/1334 has loss 2.3486483097076416
+Epoch: 2, Batch 752/1334 has loss 2.3548641204833984
+Epoch: 2, Batch 762/1334 has loss 2.508427381515503
+Epoch: 2, Batch 772/1334 has loss 2.321277618408203
+Epoch: 2, Batch 782/1334 has loss 2.6478617191314697
+Epoch: 2, Batch 792/1334 has loss 2.434995651245117
+Epoch: 2, Batch 802/1334 has loss 2.0354552268981934
+Epoch: 2, Batch 812/1334 has loss 2.237644910812378
+Epoch: 2, Batch 822/1334 has loss 2.2857844829559326
+Epoch: 2, Batch 832/1334 has loss 2.253401517868042
+Validating...
+Epoch: 2 has val accuracy 0.40755084688575477
+Epoch: 2, Batch 842/1334 has loss 2.090291738510132
+Epoch: 2, Batch 852/1334 has loss 2.4376704692840576
+Epoch: 2, Batch 862/1334 has loss 2.3888893127441406
+Epoch: 2, Batch 872/1334 has loss 2.1464664936065674
+Epoch: 2, Batch 882/1334 has loss 2.1264660358428955
+Epoch: 2, Batch 892/1334 has loss 2.1951303482055664
+Epoch: 2, Batch 902/1334 has loss 2.4288744926452637
+Epoch: 2, Batch 912/1334 has loss 2.2280969619750977
+Epoch: 2, Batch 922/1334 has loss 2.181973457336426
+Epoch: 2, Batch 932/1334 has loss 2.1831276416778564
+Epoch: 2, Batch 942/1334 has loss 2.1458990573883057
+Epoch: 2, Batch 952/1334 has loss 2.207491397857666
+Epoch: 2, Batch 962/1334 has loss 2.207026481628418
+Epoch: 2, Batch 972/1334 has loss 2.302014112472534
+Epoch: 2, Batch 982/1334 has loss 2.216033458709717
+Epoch: 2, Batch 992/1334 has loss 2.324428081512451
+Epoch: 2, Batch 1002/1334 has loss 1.999656319618225
+Epoch: 2, Batch 1012/1334 has loss 2.287015438079834
+Epoch: 2, Batch 1022/1334 has loss 2.1417951583862305
+Epoch: 2, Batch 1032/1334 has loss 2.577707529067993
+Epoch: 2, Batch 1042/1334 has loss 2.0939223766326904
+Epoch: 2, Batch 1052/1334 has loss 2.349302291870117
+Epoch: 2, Batch 1062/1334 has loss 2.166541576385498
+Epoch: 2, Batch 1072/1334 has loss 2.3217053413391113
+Epoch: 2, Batch 1082/1334 has loss 2.132566213607788
+Validating...
+Epoch: 2 has val accuracy 0.41530427154328914
+Epoch: 2, Batch 1092/1334 has loss 2.15472149848938
+Epoch: 2, Batch 1102/1334 has loss 2.026113271713257
+Epoch: 2, Batch 1112/1334 has loss 2.264909029006958
+Epoch: 2, Batch 1122/1334 has loss 2.333693504333496
+Epoch: 2, Batch 1132/1334 has loss 2.231325387954712
+Epoch: 2, Batch 1142/1334 has loss 2.1333258152008057
+Epoch: 2, Batch 1152/1334 has loss 2.1909689903259277
+Epoch: 2, Batch 1162/1334 has loss 2.237898349761963
+Epoch: 2, Batch 1172/1334 has loss 2.1473376750946045
+Epoch: 2, Batch 1182/1334 has loss 2.207637310028076
+Epoch: 2, Batch 1192/1334 has loss 2.1049721240997314
+Epoch: 2, Batch 1202/1334 has loss 2.2811949253082275
+Epoch: 2, Batch 1212/1334 has loss 2.2148079872131348
+Epoch: 2, Batch 1222/1334 has loss 2.366023302078247
+Epoch: 2, Batch 1232/1334 has loss 2.2043306827545166
+Epoch: 2, Batch 1242/1334 has loss 2.398301124572754
+Epoch: 2, Batch 1252/1334 has loss 2.371528148651123
+Epoch: 2, Batch 1262/1334 has loss 2.124415397644043
+Epoch: 2, Batch 1272/1334 has loss 2.1687397956848145
+Epoch: 2, Batch 1282/1334 has loss 2.1841933727264404
+Epoch: 2, Batch 1292/1334 has loss 2.0749199390411377
+Epoch: 2, Batch 1302/1334 has loss 2.1146602630615234
+Epoch: 2, Batch 1312/1334 has loss 2.036371946334839
+Epoch: 2, Batch 1322/1334 has loss 2.199871778488159
+Epoch: 2, Batch 1332/1334 has loss 1.9148783683776855
+Validating...
+Epoch: 2 has val accuracy 0.4146804777650315
+Validating...
+complete accuracy
+Epoch: 2 has val accuracy 0.41550873878129435
+Epoch: 3, Batch 8/1334 has loss 2.1295645236968994
+Epoch: 3, Batch 18/1334 has loss 1.8823976516723633
+Epoch: 3, Batch 28/1334 has loss 1.957221269607544
+Epoch: 3, Batch 38/1334 has loss 2.0077455043792725
+Epoch: 3, Batch 48/1334 has loss 2.3962509632110596
+Epoch: 3, Batch 58/1334 has loss 2.076611042022705
+Epoch: 3, Batch 68/1334 has loss 2.101149797439575
+Epoch: 3, Batch 78/1334 has loss 2.403752326965332
+Epoch: 3, Batch 88/1334 has loss 2.3067305088043213
+Epoch: 3, Batch 98/1334 has loss 2.439434289932251
+Epoch: 3, Batch 108/1334 has loss 2.218008518218994
+Epoch: 3, Batch 118/1334 has loss 2.1630072593688965
+Epoch: 3, Batch 128/1334 has loss 2.1403250694274902
+Epoch: 3, Batch 138/1334 has loss 2.044677495956421
+Epoch: 3, Batch 148/1334 has loss 1.9171948432922363
+Epoch: 3, Batch 158/1334 has loss 2.074873685836792
+Epoch: 3, Batch 168/1334 has loss 2.118032932281494
+Epoch: 3, Batch 178/1334 has loss 2.1539671421051025
+Epoch: 3, Batch 188/1334 has loss 2.1521120071411133
+Epoch: 3, Batch 198/1334 has loss 2.190884590148926
+Epoch: 3, Batch 208/1334 has loss 2.09492826461792
+Epoch: 3, Batch 218/1334 has loss 2.0864906311035156
+Epoch: 3, Batch 228/1334 has loss 2.2831079959869385
+Epoch: 3, Batch 238/1334 has loss 2.315685510635376
+Epoch: 3, Batch 248/1334 has loss 2.2990400791168213
+Validating...
+Epoch: 3 has val accuracy 0.4233253255955195
+Epoch: 3, Batch 258/1334 has loss 1.965925693511963
+Epoch: 3, Batch 268/1334 has loss 2.1839253902435303
+Epoch: 3, Batch 278/1334 has loss 2.0753695964813232
+Epoch: 3, Batch 288/1334 has loss 1.891020655632019
+Epoch: 3, Batch 298/1334 has loss 2.1377480030059814
+Epoch: 3, Batch 308/1334 has loss 2.0003600120544434
+Epoch: 3, Batch 318/1334 has loss 2.097611904144287
+Epoch: 3, Batch 328/1334 has loss 2.0507943630218506
+Epoch: 3, Batch 338/1334 has loss 2.3580148220062256
+Epoch: 3, Batch 348/1334 has loss 2.1733763217926025
+Epoch: 3, Batch 358/1334 has loss 2.241392135620117
+Epoch: 3, Batch 368/1334 has loss 2.1115834712982178
+Epoch: 3, Batch 378/1334 has loss 2.351055145263672
+Epoch: 3, Batch 388/1334 has loss 2.4382379055023193
+Epoch: 3, Batch 398/1334 has loss 2.1056935787200928
+Epoch: 3, Batch 408/1334 has loss 2.016427516937256
+Epoch: 3, Batch 418/1334 has loss 2.047868013381958
+Epoch: 3, Batch 428/1334 has loss 1.9668127298355103
+Epoch: 3, Batch 438/1334 has loss 2.2502238750457764
+Epoch: 3, Batch 448/1334 has loss 1.9569798707962036
+Epoch: 3, Batch 458/1334 has loss 2.0948984622955322
+Epoch: 3, Batch 468/1334 has loss 1.8981122970581055
+Epoch: 3, Batch 478/1334 has loss 2.3020894527435303
+Epoch: 3, Batch 488/1334 has loss 2.105923891067505
+Epoch: 3, Batch 498/1334 has loss 1.9683797359466553
+Validating...
+Epoch: 3 has val accuracy 0.42288292057493765
+Epoch: 3, Batch 508/1334 has loss 1.958917260169983
+Epoch: 3, Batch 518/1334 has loss 2.101470708847046
+Epoch: 3, Batch 528/1334 has loss 1.9638450145721436
+Epoch: 3, Batch 538/1334 has loss 1.9343852996826172
+Epoch: 3, Batch 548/1334 has loss 2.2611911296844482
+Epoch: 3, Batch 558/1334 has loss 2.337846040725708
+Epoch: 3, Batch 568/1334 has loss 2.0455753803253174
+Epoch: 3, Batch 578/1334 has loss 2.286813735961914
+Epoch: 3, Batch 588/1334 has loss 2.2278683185577393
+Epoch: 3, Batch 598/1334 has loss 2.2268431186676025
+Epoch: 3, Batch 608/1334 has loss 1.9459413290023804
+Epoch: 3, Batch 618/1334 has loss 2.233084201812744
+Epoch: 3, Batch 628/1334 has loss 2.1714529991149902
+Epoch: 3, Batch 638/1334 has loss 2.1379282474517822
+Epoch: 3, Batch 648/1334 has loss 2.072244167327881
+Epoch: 3, Batch 658/1334 has loss 1.956960678100586
+Epoch: 3, Batch 668/1334 has loss 2.0108954906463623
+Epoch: 3, Batch 678/1334 has loss 2.0737662315368652
+Epoch: 3, Batch 688/1334 has loss 2.119720458984375
+Epoch: 3, Batch 698/1334 has loss 2.15181303024292
+Epoch: 3, Batch 708/1334 has loss 2.1932942867279053
+Epoch: 3, Batch 718/1334 has loss 2.003673553466797
+Epoch: 3, Batch 728/1334 has loss 2.0289480686187744
+Epoch: 3, Batch 738/1334 has loss 2.208458423614502
+Epoch: 3, Batch 748/1334 has loss 2.300388813018799
+Validating...
+Epoch: 3 has val accuracy 0.42605668398677393
+Epoch: 3, Batch 758/1334 has loss 2.1728711128234863
+Epoch: 3, Batch 768/1334 has loss 2.1545541286468506
+Epoch: 3, Batch 778/1334 has loss 2.130344867706299
+Epoch: 3, Batch 788/1334 has loss 2.031121253967285
+Epoch: 3, Batch 798/1334 has loss 2.2120611667633057
+Epoch: 3, Batch 808/1334 has loss 2.2491631507873535
+Epoch: 3, Batch 818/1334 has loss 2.117762804031372
+Epoch: 3, Batch 828/1334 has loss 2.027231216430664
+Epoch: 3, Batch 838/1334 has loss 2.0804154872894287
+Epoch: 3, Batch 848/1334 has loss 2.075922966003418
+Epoch: 3, Batch 858/1334 has loss 2.304295063018799
+Epoch: 3, Batch 868/1334 has loss 2.283036947250366
+Epoch: 3, Batch 878/1334 has loss 2.0581703186035156
+Epoch: 3, Batch 888/1334 has loss 2.325266122817993
+Epoch: 3, Batch 898/1334 has loss 2.0857362747192383
+Epoch: 3, Batch 908/1334 has loss 2.10207462310791
+Epoch: 3, Batch 918/1334 has loss 2.4176323413848877
+Epoch: 3, Batch 928/1334 has loss 2.2339162826538086
+Epoch: 3, Batch 938/1334 has loss 2.3801047801971436
+Epoch: 3, Batch 948/1334 has loss 2.1028318405151367
+Epoch: 3, Batch 958/1334 has loss 2.267469882965088
+Epoch: 3, Batch 968/1334 has loss 2.279860496520996
+Epoch: 3, Batch 978/1334 has loss 2.578256607055664
+Epoch: 3, Batch 988/1334 has loss 2.0900380611419678
+Epoch: 3, Batch 998/1334 has loss 1.9486043453216553
+Validating...
+Epoch: 3 has val accuracy 0.4273233011674205
+Epoch: 3, Batch 1008/1334 has loss 2.0270447731018066
+Epoch: 3, Batch 1018/1334 has loss 2.229949712753296
+Epoch: 3, Batch 1028/1334 has loss 2.369626760482788
+Epoch: 3, Batch 1038/1334 has loss 2.021791934967041
+Epoch: 3, Batch 1048/1334 has loss 2.1051135063171387
+Epoch: 3, Batch 1058/1334 has loss 2.0343964099884033
+Epoch: 3, Batch 1068/1334 has loss 2.354248046875
+Epoch: 3, Batch 1078/1334 has loss 2.205291748046875
+Epoch: 3, Batch 1088/1334 has loss 2.1833484172821045
+Epoch: 3, Batch 1098/1334 has loss 2.235426425933838
+Epoch: 3, Batch 1108/1334 has loss 2.1437482833862305
+Epoch: 3, Batch 1118/1334 has loss 2.0882906913757324
+Epoch: 3, Batch 1128/1334 has loss 2.0279290676116943
+Epoch: 3, Batch 1138/1334 has loss 2.0348894596099854
+Epoch: 3, Batch 1148/1334 has loss 2.129519462585449
+Epoch: 3, Batch 1158/1334 has loss 1.9525775909423828
+Epoch: 3, Batch 1168/1334 has loss 1.9362653493881226
+Epoch: 3, Batch 1178/1334 has loss 2.068603038787842
+Epoch: 3, Batch 1188/1334 has loss 2.160034656524658
+Epoch: 3, Batch 1198/1334 has loss 1.877174735069275
+Epoch: 3, Batch 1208/1334 has loss 2.082812547683716
+Epoch: 3, Batch 1218/1334 has loss 2.388329029083252
+Epoch: 3, Batch 1228/1334 has loss 2.056682825088501
+Epoch: 3, Batch 1238/1334 has loss 1.880122423171997
+Epoch: 3, Batch 1248/1334 has loss 2.0092880725860596
+Validating...
+Epoch: 3 has val accuracy 0.42908306903299814
+Epoch: 3, Batch 1258/1334 has loss 2.082552671432495
+Epoch: 3, Batch 1268/1334 has loss 2.1043591499328613
+Epoch: 3, Batch 1278/1334 has loss 1.9696316719055176
+Epoch: 3, Batch 1288/1334 has loss 2.380134344100952
+Epoch: 3, Batch 1298/1334 has loss 2.1310431957244873
+Epoch: 3, Batch 1308/1334 has loss 2.2689764499664307
+Epoch: 3, Batch 1318/1334 has loss 1.9949208498001099
+Epoch: 3, Batch 1328/1334 has loss 2.123974084854126
+Validating...
+complete accuracy
+Epoch: 3 has val accuracy 0.4311566232539309
+Epoch: 4, Batch 4/1334 has loss 2.2153351306915283
+Epoch: 4, Batch 14/1334 has loss 2.241222381591797
+Epoch: 4, Batch 24/1334 has loss 2.1961913108825684
+Epoch: 4, Batch 34/1334 has loss 1.8974061012268066
+Epoch: 4, Batch 44/1334 has loss 1.973202109336853
+Epoch: 4, Batch 54/1334 has loss 1.9715533256530762
+Epoch: 4, Batch 64/1334 has loss 2.218158006668091
+Epoch: 4, Batch 74/1334 has loss 2.0190815925598145
+Epoch: 4, Batch 84/1334 has loss 2.043307065963745
+Epoch: 4, Batch 94/1334 has loss 1.89076566696167
+Epoch: 4, Batch 104/1334 has loss 1.9992705583572388
+Epoch: 4, Batch 114/1334 has loss 1.9973312616348267
+Epoch: 4, Batch 124/1334 has loss 2.106191873550415
+Epoch: 4, Batch 134/1334 has loss 1.7749834060668945
+Epoch: 4, Batch 144/1334 has loss 1.9883885383605957
+Epoch: 4, Batch 154/1334 has loss 1.8007910251617432
+Epoch: 4, Batch 164/1334 has loss 2.0340113639831543
+Validating...
+Epoch: 4 has val accuracy 0.43248869694311387
+Epoch: 4, Batch 174/1334 has loss 1.9025009870529175
+Epoch: 4, Batch 184/1334 has loss 2.298917055130005
+Epoch: 4, Batch 194/1334 has loss 2.1088688373565674
+Epoch: 4, Batch 204/1334 has loss 1.8040121793746948
+Epoch: 4, Batch 214/1334 has loss 1.8344204425811768
+Epoch: 4, Batch 224/1334 has loss 2.1818742752075195
+Epoch: 4, Batch 234/1334 has loss 1.9324135780334473
+Epoch: 4, Batch 244/1334 has loss 2.0995192527770996
+Epoch: 4, Batch 254/1334 has loss 2.0924460887908936
+Epoch: 4, Batch 264/1334 has loss 1.7894728183746338
+Epoch: 4, Batch 274/1334 has loss 1.9793615341186523
+Epoch: 4, Batch 284/1334 has loss 1.7594797611236572
+Epoch: 4, Batch 294/1334 has loss 2.140462875366211
+Epoch: 4, Batch 304/1334 has loss 2.0212152004241943
+Epoch: 4, Batch 314/1334 has loss 2.1110029220581055
+Epoch: 4, Batch 324/1334 has loss 2.056199312210083
+Epoch: 4, Batch 334/1334 has loss 1.8998652696609497
+Epoch: 4, Batch 344/1334 has loss 2.276625394821167
+Epoch: 4, Batch 354/1334 has loss 2.1213927268981934
+Epoch: 4, Batch 364/1334 has loss 2.0383074283599854
+Epoch: 4, Batch 374/1334 has loss 2.1430537700653076
+Epoch: 4, Batch 384/1334 has loss 2.1613352298736572
+Epoch: 4, Batch 394/1334 has loss 2.0221798419952393
+Epoch: 4, Batch 404/1334 has loss 1.9947644472122192
+Epoch: 4, Batch 414/1334 has loss 2.010413885116577
+Validating...
+Epoch: 4 has val accuracy 0.43428625413320754
+Epoch: 4, Batch 424/1334 has loss 2.136151075363159
+Epoch: 4, Batch 434/1334 has loss 2.0270519256591797
+Epoch: 4, Batch 444/1334 has loss 1.8761699199676514
+Epoch: 4, Batch 454/1334 has loss 1.9037710428237915
+Epoch: 4, Batch 464/1334 has loss 2.109489917755127
+Epoch: 4, Batch 474/1334 has loss 2.151398181915283
+Epoch: 4, Batch 484/1334 has loss 1.91897714138031
+Epoch: 4, Batch 494/1334 has loss 2.018026351928711
+Epoch: 4, Batch 504/1334 has loss 2.1862142086029053
+Epoch: 4, Batch 514/1334 has loss 2.1755340099334717
+Epoch: 4, Batch 524/1334 has loss 2.0745179653167725
+Epoch: 4, Batch 534/1334 has loss 2.028761625289917
+Epoch: 4, Batch 544/1334 has loss 1.99126398563385
+Epoch: 4, Batch 554/1334 has loss 1.9843430519104004
+Epoch: 4, Batch 564/1334 has loss 2.1790895462036133
+Epoch: 4, Batch 574/1334 has loss 2.0252251625061035
+Epoch: 4, Batch 584/1334 has loss 2.0358989238739014
+Epoch: 4, Batch 594/1334 has loss 1.967265248298645
+Epoch: 4, Batch 604/1334 has loss 2.0984044075012207
+Epoch: 4, Batch 614/1334 has loss 2.1577703952789307
+Epoch: 4, Batch 624/1334 has loss 2.064124345779419
+Epoch: 4, Batch 634/1334 has loss 2.0211703777313232
+Epoch: 4, Batch 644/1334 has loss 1.8007209300994873
+Epoch: 4, Batch 654/1334 has loss 2.346134662628174
+Epoch: 4, Batch 664/1334 has loss 1.883941411972046
+Validating...
+Epoch: 4 has val accuracy 0.4342020379242866
+Epoch: 4, Batch 674/1334 has loss 2.014423131942749
+Epoch: 4, Batch 684/1334 has loss 2.081658124923706
+Epoch: 4, Batch 694/1334 has loss 2.2996199131011963
+Epoch: 4, Batch 704/1334 has loss 2.2803492546081543
+Epoch: 4, Batch 714/1334 has loss 1.9983594417572021
+Epoch: 4, Batch 724/1334 has loss 2.3558294773101807
+Epoch: 4, Batch 734/1334 has loss 2.2400550842285156
+Epoch: 4, Batch 744/1334 has loss 2.0989112854003906
+Epoch: 4, Batch 754/1334 has loss 1.991223931312561
+Epoch: 4, Batch 764/1334 has loss 2.0311522483825684
+Epoch: 4, Batch 774/1334 has loss 2.0853397846221924
+Epoch: 4, Batch 784/1334 has loss 2.1012730598449707
+Epoch: 4, Batch 794/1334 has loss 2.103179454803467
+Epoch: 4, Batch 804/1334 has loss 2.1530959606170654
+Epoch: 4, Batch 814/1334 has loss 1.9933125972747803
+Epoch: 4, Batch 824/1334 has loss 1.991579294204712
+Epoch: 4, Batch 834/1334 has loss 2.1564953327178955
+Epoch: 4, Batch 844/1334 has loss 1.9780099391937256
+Epoch: 4, Batch 854/1334 has loss 2.0387041568756104
+Epoch: 4, Batch 864/1334 has loss 2.1660373210906982
+Epoch: 4, Batch 874/1334 has loss 2.1456282138824463
+Epoch: 4, Batch 884/1334 has loss 2.2382774353027344
+Epoch: 4, Batch 894/1334 has loss 1.9313277006149292
+Epoch: 4, Batch 904/1334 has loss 2.0207107067108154
+Epoch: 4, Batch 914/1334 has loss 2.112208604812622
+Validating...
+Epoch: 4 has val accuracy 0.43725150145084035
+Epoch: 4, Batch 924/1334 has loss 2.0260462760925293
+Epoch: 4, Batch 934/1334 has loss 2.1474268436431885
+Epoch: 4, Batch 944/1334 has loss 2.0612075328826904
+Epoch: 4, Batch 954/1334 has loss 2.2161715030670166
+Epoch: 4, Batch 964/1334 has loss 1.8750320672988892
+Epoch: 4, Batch 974/1334 has loss 1.952958345413208
+Epoch: 4, Batch 984/1334 has loss 1.84933602809906
+Epoch: 4, Batch 994/1334 has loss 2.0394325256347656
+Epoch: 4, Batch 1004/1334 has loss 1.8651117086410522
+Epoch: 4, Batch 1014/1334 has loss 1.9856278896331787
+Epoch: 4, Batch 1024/1334 has loss 2.226215124130249
+Epoch: 4, Batch 1034/1334 has loss 1.9318197965621948
+Epoch: 4, Batch 1044/1334 has loss 1.9635576009750366
+Epoch: 4, Batch 1054/1334 has loss 2.0463781356811523
+Epoch: 4, Batch 1064/1334 has loss 2.043736219406128
+Epoch: 4, Batch 1074/1334 has loss 2.14894437789917
+Epoch: 4, Batch 1084/1334 has loss 2.2102954387664795
+Epoch: 4, Batch 1094/1334 has loss 2.0076727867126465
+Epoch: 4, Batch 1104/1334 has loss 2.0540199279785156
+Epoch: 4, Batch 1114/1334 has loss 2.167461633682251
+Epoch: 4, Batch 1124/1334 has loss 1.9921972751617432
+Epoch: 4, Batch 1134/1334 has loss 2.0661306381225586
+Epoch: 4, Batch 1144/1334 has loss 2.06758713722229
+Epoch: 4, Batch 1154/1334 has loss 1.9955079555511475
+Epoch: 4, Batch 1164/1334 has loss 1.945067286491394
+Validating...
+Epoch: 4 has val accuracy 0.435988933126392
+Epoch: 4, Batch 1174/1334 has loss 1.7072616815567017
+Epoch: 4, Batch 1184/1334 has loss 1.9351215362548828
+Epoch: 4, Batch 1194/1334 has loss 2.0243313312530518
+Epoch: 4, Batch 1204/1334 has loss 1.8873622417449951
+Epoch: 4, Batch 1214/1334 has loss 1.8482699394226074
+Epoch: 4, Batch 1224/1334 has loss 2.020367383956909
+Epoch: 4, Batch 1234/1334 has loss 2.118600845336914
+Epoch: 4, Batch 1244/1334 has loss 2.1456949710845947
+Epoch: 4, Batch 1254/1334 has loss 2.066223621368408
+Epoch: 4, Batch 1264/1334 has loss 2.0864479541778564
+Epoch: 4, Batch 1274/1334 has loss 2.0855047702789307
+Epoch: 4, Batch 1284/1334 has loss 1.9976284503936768
+Epoch: 4, Batch 1294/1334 has loss 2.191276788711548
+Epoch: 4, Batch 1304/1334 has loss 2.224238634109497
+Epoch: 4, Batch 1314/1334 has loss 2.218581438064575
+Epoch: 4, Batch 1324/1334 has loss 2.2924563884735107
+Validating...
+complete accuracy
+Epoch: 4 has val accuracy 0.43577002496794676
+Epoch: 5, Batch 0/1334 has loss 2.1291744709014893
+Epoch: 5, Batch 10/1334 has loss 2.053203582763672
+Epoch: 5, Batch 20/1334 has loss 1.844994306564331
+Epoch: 5, Batch 30/1334 has loss 1.8996646404266357
+Epoch: 5, Batch 40/1334 has loss 1.7563202381134033
+Epoch: 5, Batch 50/1334 has loss 2.185487747192383
+Epoch: 5, Batch 60/1334 has loss 2.244267225265503
+Epoch: 5, Batch 70/1334 has loss 1.978773593902588
+Epoch: 5, Batch 80/1334 has loss 1.96939218044281
+Validating...
+Epoch: 5 has val accuracy 0.4391208583575142
+Epoch: 5, Batch 90/1334 has loss 2.0229413509368896
+Epoch: 5, Batch 100/1334 has loss 1.907426357269287
+Epoch: 5, Batch 110/1334 has loss 2.0589635372161865
+Epoch: 5, Batch 120/1334 has loss 2.0253822803497314
+Epoch: 5, Batch 130/1334 has loss 1.9648629426956177
+Epoch: 5, Batch 140/1334 has loss 2.116086483001709
+Epoch: 5, Batch 150/1334 has loss 1.7538634538650513
+Epoch: 5, Batch 160/1334 has loss 1.9708807468414307
+Epoch: 5, Batch 170/1334 has loss 2.047823905944824
+Epoch: 5, Batch 180/1334 has loss 2.190258264541626
+Epoch: 5, Batch 190/1334 has loss 2.1245920658111572
+Epoch: 5, Batch 200/1334 has loss 2.037144899368286
+Epoch: 5, Batch 210/1334 has loss 2.1372792720794678
+Epoch: 5, Batch 220/1334 has loss 1.974506139755249
+Epoch: 5, Batch 230/1334 has loss 2.012998580932617
+Epoch: 5, Batch 240/1334 has loss 1.9048893451690674
+Epoch: 5, Batch 250/1334 has loss 2.217808485031128
+Epoch: 5, Batch 260/1334 has loss 1.6507365703582764
+Epoch: 5, Batch 270/1334 has loss 2.294584274291992
+Epoch: 5, Batch 280/1334 has loss 2.0341477394104004
+Epoch: 5, Batch 290/1334 has loss 2.024644136428833
+Epoch: 5, Batch 300/1334 has loss 1.911306381225586
+Epoch: 5, Batch 310/1334 has loss 1.9750138521194458
+Epoch: 5, Batch 320/1334 has loss 1.932115912437439
+Epoch: 5, Batch 330/1334 has loss 1.8791747093200684
+Validating...
+Epoch: 5 has val accuracy 0.43928321749105886
+Epoch: 5, Batch 340/1334 has loss 1.9640954732894897
+Epoch: 5, Batch 350/1334 has loss 2.217078447341919
+Epoch: 5, Batch 360/1334 has loss 2.0456361770629883
+Epoch: 5, Batch 370/1334 has loss 2.0950875282287598
+Epoch: 5, Batch 380/1334 has loss 1.9277180433273315
+Epoch: 5, Batch 390/1334 has loss 2.043501615524292
+Epoch: 5, Batch 400/1334 has loss 2.0607399940490723
+Epoch: 5, Batch 410/1334 has loss 1.8901374340057373
+Epoch: 5, Batch 420/1334 has loss 2.086623430252075
+Epoch: 5, Batch 430/1334 has loss 1.8956845998764038
+Epoch: 5, Batch 440/1334 has loss 1.7850539684295654
+Epoch: 5, Batch 450/1334 has loss 2.0149986743927
+Epoch: 5, Batch 460/1334 has loss 2.027954339981079
+Epoch: 5, Batch 470/1334 has loss 2.079420566558838
+Epoch: 5, Batch 480/1334 has loss 2.059309244155884
+Epoch: 5, Batch 490/1334 has loss 1.9898991584777832
+Epoch: 5, Batch 500/1334 has loss 1.9769432544708252
+Epoch: 5, Batch 510/1334 has loss 1.945668339729309
+Epoch: 5, Batch 520/1334 has loss 1.9715745449066162
+Epoch: 5, Batch 530/1334 has loss 2.2563815116882324
+Epoch: 5, Batch 540/1334 has loss 1.980083703994751
+Epoch: 5, Batch 550/1334 has loss 2.1691091060638428
+Epoch: 5, Batch 560/1334 has loss 2.0218775272369385
+Epoch: 5, Batch 570/1334 has loss 1.9769768714904785
+Epoch: 5, Batch 580/1334 has loss 2.183586597442627
+Validating...
+Epoch: 5 has val accuracy 0.4374075173763413
+Epoch: 5, Batch 590/1334 has loss 2.0766777992248535
+Epoch: 5, Batch 600/1334 has loss 1.8898837566375732
+Epoch: 5, Batch 610/1334 has loss 1.771193504333496
+Epoch: 5, Batch 620/1334 has loss 1.9530656337738037
+Epoch: 5, Batch 630/1334 has loss 2.018383741378784
+Epoch: 5, Batch 640/1334 has loss 1.9672595262527466
+Epoch: 5, Batch 650/1334 has loss 1.9123550653457642
+Epoch: 5, Batch 660/1334 has loss 1.84255850315094
+Epoch: 5, Batch 670/1334 has loss 2.120572805404663
+Epoch: 5, Batch 680/1334 has loss 2.1198160648345947
+Epoch: 5, Batch 690/1334 has loss 2.039792537689209
+Epoch: 5, Batch 700/1334 has loss 1.9566580057144165
+Epoch: 5, Batch 710/1334 has loss 2.0444374084472656
+Epoch: 5, Batch 720/1334 has loss 2.150400400161743
+Epoch: 5, Batch 730/1334 has loss 2.0233891010284424
+Epoch: 5, Batch 740/1334 has loss 2.3383407592773438
+Epoch: 5, Batch 750/1334 has loss 1.9668076038360596
+Epoch: 5, Batch 760/1334 has loss 1.9715867042541504
+Epoch: 5, Batch 770/1334 has loss 1.9954280853271484
+Epoch: 5, Batch 780/1334 has loss 2.137197732925415
+Epoch: 5, Batch 790/1334 has loss 1.8871409893035889
+Epoch: 5, Batch 800/1334 has loss 1.7778874635696411
+Epoch: 5, Batch 810/1334 has loss 2.215742349624634
+Epoch: 5, Batch 820/1334 has loss 1.8355153799057007
+Epoch: 5, Batch 830/1334 has loss 1.974680781364441
+Validating...
+Epoch: 5 has val accuracy 0.4389775288481005
+Epoch: 5, Batch 840/1334 has loss 1.979478359222412
+Epoch: 5, Batch 850/1334 has loss 2.204185724258423
+Epoch: 5, Batch 860/1334 has loss 1.9215160608291626
+Epoch: 5, Batch 870/1334 has loss 2.140730619430542
+Epoch: 5, Batch 880/1334 has loss 1.8615318536758423
+Epoch: 5, Batch 890/1334 has loss 1.915611982345581
+Epoch: 5, Batch 900/1334 has loss 1.9030351638793945
+Epoch: 5, Batch 910/1334 has loss 1.8474360704421997
+Epoch: 5, Batch 920/1334 has loss 2.075575590133667
+Epoch: 5, Batch 930/1334 has loss 1.865293025970459
+Epoch: 5, Batch 940/1334 has loss 2.0695905685424805
+Epoch: 5, Batch 950/1334 has loss 1.97874116897583
+Epoch: 5, Batch 960/1334 has loss 2.1256022453308105
+Epoch: 5, Batch 970/1334 has loss 1.9395886659622192
+Epoch: 5, Batch 980/1334 has loss 2.122864246368408
+Epoch: 5, Batch 990/1334 has loss 2.0759949684143066
+Epoch: 5, Batch 1000/1334 has loss 2.1769185066223145
+Epoch: 5, Batch 1010/1334 has loss 1.9489692449569702
+Epoch: 5, Batch 1020/1334 has loss 1.9565553665161133
+Epoch: 5, Batch 1030/1334 has loss 1.9341850280761719
+Epoch: 5, Batch 1040/1334 has loss 1.9045218229293823
+Epoch: 5, Batch 1050/1334 has loss 2.0662732124328613
+Epoch: 5, Batch 1060/1334 has loss 1.8262795209884644
+Epoch: 5, Batch 1070/1334 has loss 2.2060940265655518
+Epoch: 5, Batch 1080/1334 has loss 2.229952335357666
+Validating...
+Epoch: 5 has val accuracy 0.4380777380390041
+Epoch: 5, Batch 1090/1334 has loss 1.9968053102493286
+Epoch: 5, Batch 1100/1334 has loss 2.1244592666625977
+Epoch: 5, Batch 1110/1334 has loss 2.052013397216797
+Epoch: 5, Batch 1120/1334 has loss 2.4462783336639404
+Epoch: 5, Batch 1130/1334 has loss 1.6770851612091064
+Epoch: 5, Batch 1140/1334 has loss 1.9982869625091553
+Epoch: 5, Batch 1150/1334 has loss 1.9923436641693115
+Epoch: 5, Batch 1160/1334 has loss 2.1958370208740234
+Epoch: 5, Batch 1170/1334 has loss 2.009850263595581
+Epoch: 5, Batch 1180/1334 has loss 2.0768768787384033
+Epoch: 5, Batch 1190/1334 has loss 1.9582489728927612
+Epoch: 5, Batch 1200/1334 has loss 1.9301780462265015
+Epoch: 5, Batch 1210/1334 has loss 2.269758701324463
+Epoch: 5, Batch 1220/1334 has loss 2.0570898056030273
+Epoch: 5, Batch 1230/1334 has loss 2.0564513206481934
+Epoch: 5, Batch 1240/1334 has loss 2.282179832458496
+Epoch: 5, Batch 1250/1334 has loss 1.7273699045181274
+Epoch: 5, Batch 1260/1334 has loss 1.8900905847549438
+Epoch: 5, Batch 1270/1334 has loss 2.0068109035491943
+Epoch: 5, Batch 1280/1334 has loss 2.13484525680542
+Epoch: 5, Batch 1290/1334 has loss 2.1346371173858643
+Epoch: 5, Batch 1300/1334 has loss 2.0880439281463623
+Epoch: 5, Batch 1310/1334 has loss 1.9226268529891968
+Epoch: 5, Batch 1320/1334 has loss 1.7698771953582764
+Epoch: 5, Batch 1330/1334 has loss 1.9934505224227905
+Validating...
+Epoch: 5 has val accuracy 0.4415488224576558
+Validating...
+complete accuracy
+Epoch: 5 has val accuracy 0.44159727377015995
