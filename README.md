@@ -25,7 +25,6 @@
     - CoAttention_main.py `(Main training code for the CoAttention Net)`
     - CoAttention_runner.py `(Runner, Has all the optimizers+training+validation functions)`
     - CoattBestRun.txt`(Run Log for CoAttention Net)`
----
     ### **To Run this code on your Machine**
     #### Initial setup
        1. Download the [Visual VQA dataset](https://visualqa.org/) and copy that into the Data folder.
