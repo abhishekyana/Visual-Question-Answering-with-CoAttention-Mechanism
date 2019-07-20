@@ -1,4 +1,4 @@
-# VQA
+# Visual Question Answering
 - **Project**: Visual Question Answering System.
 - **Dataset**: Trained on MS COCO dataset.
 - **Models Implemented**:
