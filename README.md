@@ -26,4 +26,18 @@
     - CoAttention_runner.py `(Runner, Has all the optimizers+training+validation functions)`
     - CoattBestRun.txt`(Run Log for CoAttention Net)`
     
+    **To Run this code on your Machine**
+    #### Initial setup
+       1. Download the (Visual VQA dataset)[https://visualqa.org/] and copy that into the Data folder.
+    #### For Simple Baseline Net:
+       1. `python SimpleNet_main.py` (YES, that's it)
+    #### For CoAttention Net:
+       1. Download the GloVe.6B.300d.txt file.
+        ```
+          wget http://nlp.stanford.edu/data/glove.6B.zip
+          unzip glove.6B.zip -d ./supportfiles/
+         ```
+       2. Run the `CoAttention_preprocess.py` to generate the pickle objects required to run the model experiment runner.
+       3. `python CoAttention_main.py`
+    
 ## TODO Write all the details of the project
