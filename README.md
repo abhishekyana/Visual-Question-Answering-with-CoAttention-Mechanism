@@ -28,7 +28,7 @@
     
     **To Run this code on your Machine**
     #### Initial setup
-       1. Download the (Visual VQA dataset)[https://visualqa.org/] and copy that into the Data folder.
+       1. Download the [Visual VQA dataset](https://visualqa.org/) and copy that into the Data folder.
     #### For Simple Baseline Net:
        1. `python SimpleNet_main.py` (YES, that's it)
     #### For CoAttention Net:
