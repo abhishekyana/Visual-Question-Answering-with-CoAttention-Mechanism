@@ -37,4 +37,4 @@
        3. `python CoAttention_main.py`
     
 ### Links:
-1. To read about the inner workings of the model visit my blog post [here](http://blog.abhishekyana.ml/2019/07/20/visual-question-answering-with-coattention-mechanism/).
+1. To read about the working of the model, please visit my blog post [here](http://blog.abhishekyana.ml/2019/07/20/visual-question-answering-with-coattention-mechanism/).
