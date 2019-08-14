@@ -1,6 +1,6 @@
 # Visual Question Answering
 - **Project**: Visual Question Answering System.
-- **Dataset**: Trained on MS COCO dataset.
+- **Dataset**: Trained on vqadataset.
 - **Models Implemented**:
   1. Simple Baseline for VQA. [Paper](https://arxiv.org/abs/1512.02167)
   1. Heirarchial Question-Image Co-Attention Mechanism for VQA. [Paper](https://arxiv.org/abs/1606.00061)
