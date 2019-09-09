@@ -36,6 +36,6 @@
        2. Run the `CoAttention_preprocess.py` to generate the pickle objects required to run the model experiment runner.
        3. `python CoAttention_main.py`
 ### Results:
-![VQA LOAD IMAGE.jpg](IMG)
+![VQA LOAD IMAGE.jpg](VQA LOAD IMAGE.jpg)
 ### Links:
 1. To read about the working of the model, please visit my blog post [here](http://blog.abhishekyana.ml/2019/07/20/visual-question-answering-with-coattention-mechanism/).
