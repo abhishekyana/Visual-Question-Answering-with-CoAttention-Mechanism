@@ -133,7 +133,7 @@ class CoattentionNet(nn.Module):
         hp = self.tanh(self.HpL(hpin))
         Qsl = self.QL(Q)
         Vshat,Qshat = self.parallelattention(V, Qsl)
-        hsin = torch.cat([Vwhat+Qwhat,hw],1)
-        hs = self.tanh(self.HsL(hsin))
+        hsin = torch.cat([Vshat+Qshat,hp],1)
+        hs = self.tanh(self.Hs(hsin))
         out = self.final(hs)
         return out
