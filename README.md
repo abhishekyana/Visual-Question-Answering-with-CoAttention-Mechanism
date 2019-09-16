@@ -1,4 +1,5 @@
 # Visual Question Answering
+### When given an image and a natural language questoin about the image, the task is to predict an accurate natural language answer.
 - **Project**: Visual Question Answering System.
 - **Dataset**: Trained on (vqadataset)[vqadataset.com].
 - **Models Implemented**:
