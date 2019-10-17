@@ -32,7 +32,7 @@ class CoattentionNetExperimentRunner(object):
 		self._model = CoattentionNet()
 		# self.BCE = torch.nn.BCELoss()
 		self.CE = torch.nn.CrossEntropyLoss()
-		self.softmax = torch.nn.Softmax(dim=1)
+		#self.softmax = torch.nn.Softmax(dim=1)
 		# self.optim = torch.optim.RMSprop(self._model.parameters(), lr=4e-4, weight_decay=1e-8,momentum=0.99)#
 		self.optim = torch.optim.Adam(self._model.parameters(), lr=0.001)#can be changed
 		# self._model = CoattentionNet()
