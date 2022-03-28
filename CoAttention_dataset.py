@@ -46,6 +46,8 @@ def ImageID2Embeddings(path):
 # 		data = pickle.load(file)
 # 	return data
 
+# another comment
+
 # def Answer2OneHot(answer,AW):
 # 	Aembs = torch.zeros(len(AW))
 # 	for w in answer.split(" "):
